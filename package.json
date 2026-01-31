@@ -1,0 +1,21 @@
+{
+  "name": "sifthub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:jira": "playwright test tests/Jira.spec.js",
+    "test:jira:debug": "playwright test tests/Jira.spec.js --debug",
+    "test:jira-simple": "playwright test tests/Jira-Simple.spec.js",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
